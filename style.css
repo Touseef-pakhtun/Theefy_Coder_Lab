@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    background: #ca9898;
+}
+
+/* header nav */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+nav .email a{
+    font-weight: bold;
+    margin-right: 50px;
+    color: white;
+}
+nav .search label{
+    font-size: 20px;
+}
+nav .search input{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    width: 300px;
+    border: none;
+}
+nav .list ul{
+    display: flex;
+    list-style: none;
+}
+nav .list ul li{
+    margin: 0 15px;
+    color: white;
+}
+nav .list ul li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav .list ul li a:hover{
+    color: orange;
+    position: relative;
+    font-size: xx-large;
+}
+
+/* header top */
+header .top{
+    background-color: rgb(29, 29, 29);
+    background-image: url('./images/lanuguge.jpg');
+    background-size: 32vw 100%;
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-bottom: 10px;
+}
+header .top .welcome{
+    display: flex;
+    align-items: center;
+}
+header .top .welcome img{
+    width: 200px;
+    height: 200px;
+}
+header .top .welcome h1{
+    color: rgb(255, 157, 0);
+}
+header .top .manu ul{
+    display: flex;
+    width: 100vw;
+    align-items: flex-end;
+    justify-content: flex-end;
+    list-style: none;
+    padding-right: 100px;
+    color: white;
+}
+header .top .manu ul li a{
+    font-weight: bold;
+    margin: 0 15px;
+    color: white;
+    padding-bottom: 50px;
+    margin-bottom: 100px;
+    text-decoration: none;
+}
+header .top .manu ul li a:hover{
+    position: relative;
+    color: orange;
+}
+header .top .manu ul li a:hover::after{
+    content: '';
+    display: block;
+    position: absolute;
+    border-bottom: 3px solid orange;
+    width: 110%;
+    left: 0px;
+    margin-top: 5px;
+}
+
+/* header mobail */
