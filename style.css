@@ -15,24 +15,26 @@ header nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 10px;
     background-color: black;
     color: white;
 }
 nav .email a{
     font-weight: bold;
-    margin-right: 50px;
+    font-size: small;
+    margin-right: 20px;
     color: white;
 }
 nav .search label{
-    font-size: 20px;
+    font-size: small;
+    font-weight: bold;
 }
 nav .search input{
-    padding: 7px;
+    padding: 5px;
     border: none;
     border-radius: 5px;
     margin-left: 10px;
-    width: 300px;
+    width: 250px;
     border: none;
 }
 nav .list ul{
@@ -80,16 +82,20 @@ header .top .manu ul{
     align-items: flex-end;
     justify-content: flex-end;
     list-style: none;
-    padding-right: 100px;
+    padding-right: 20px;
     color: white;
+}
+header .top .manu ul li{
+    margin: 0 10px;
 }
 header .top .manu ul li a{
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 8px;
     color: white;
-    padding-bottom: 50px;
-    margin-bottom: 100px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
     text-decoration: none;
+    font-size: 14px;
 }
 header .top .manu ul li a:hover{
     position: relative;
@@ -105,4 +111,203 @@ header .top .manu ul li a:hover::after{
     margin-top: 5px;
 }
 
+/* Laptop screen adjustments */
+@media screen and (max-width: 1200px) {
+    header .top .manu ul {
+        padding-right: 10px;
+    }
+    
+    header .top .manu ul li a {
+        margin: 0 5px;
+        font-size: 13px;
+    }
+}
+
 /* header mobail */
+
+/* Desktop - Hide hamburger menu by default */
+header .top .manu .menu-toggle {
+    display: none;
+}
+
+header .top .manu .menu-list {
+    display: flex;
+}
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    /* Remove background image on mobile */
+    header .top {
+        background-image: none;
+        background-color: rgb(29, 29, 29);
+        position: relative;
+        padding-top: 70px;
+    }
+    
+    /* Hamburger Menu Icon - Fixed at top right */
+    header .top .manu .menu-toggle {
+        display: block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        font-size: 14px;
+        color: white;
+        cursor: pointer;
+        z-index: 1001;
+        background: orange;
+        padding: 6px 8px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+    
+    header .top .manu .menu-toggle:hover {
+        color: orange;
+        background: white;
+    }
+    
+    /* Hide desktop menu */
+    header .top .manu > ul {
+        display: none;
+    }
+    
+    /* Mobile menu list styling */
+    header .top .manu .menu-list {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: 70%;
+        max-width: 300px;
+        height: 100vh;
+        background-color: rgb(29, 29, 29);
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding-top: 60px;
+        transition: right 0.3s ease-in-out;
+        z-index: 1000;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+        overflow-y: auto;
+    }
+    
+    /* Show menu when active */
+    header .top .manu .menu-list.active {
+        display: flex;
+        right: 0;
+    }
+    
+    header .top .manu .menu-list li {
+        margin: 5px 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    header .top .manu .menu-list li a {
+        font-size: 14px;
+        margin: 0;
+        padding: 10px 15px;
+        display: block;
+        color: white;
+        text-decoration: none;
+    }
+    
+    header .top .manu .menu-list li a:hover {
+        color: orange;
+        background: rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Top Navbar - Stack vertically */
+    header nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+    
+    nav .email {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+    
+    nav .email a {
+        margin-right: 0;
+        font-size: 14px;
+    }
+    
+    nav .search {
+        width: 100%;
+        text-align: center;
+    }
+    
+    nav .search label {
+        display: none;
+    }
+    
+    nav .search input {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    nav .list ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    nav .list ul li {
+        margin: 0 8px;
+    }
+    
+    nav .list ul li a {
+        font-size: 18px;
+    }
+    
+    nav .list ul li a:hover {
+        font-size: 20px;
+    }
+    
+    /* Header Top Section */
+    header .top .welcome {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    header .top .welcome img {
+        width: 120px;
+        height: 120px;
+    }
+    
+    header .top .welcome h1 {
+        font-size: 20px;
+        color: rgb(255, 157, 0);
+    }
+}
+
+/* Extra Small Mobile (phones) */
+@media screen and (max-width: 480px) {
+    header nav {
+        padding: 10px;
+    }
+    
+    nav .email a {
+        font-size: 12px;
+    }
+    
+    nav .list ul li a {
+        font-size: 16px;
+    }
+    
+    header .top .welcome img {
+        width: 80px;
+        height: 80px;
+    }
+    
+    header .top .welcome h1 {
+        font-size: 16px;
+    }
+    
+    header .top .manu ul li a {
+        font-size: 12px;
+    }
+}
