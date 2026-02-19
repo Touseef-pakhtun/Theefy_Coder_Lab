@@ -154,15 +154,15 @@ header .top .manu .menu-list {
         color: white;
         cursor: pointer;
         z-index: 1001;
-        background: orange;
+        /* background: orange; */
         padding: 6px 8px;
         border-radius: 5px;
         box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
     
     header .top .manu .menu-toggle:hover {
-        color: orange;
-        background: white;
+        /* color: orange;
+        background: white; */
     }
     
     /* Hide desktop menu */
