@@ -160,11 +160,6 @@ header .top .manu .menu-list {
         box-shadow: 0 2px 5px rgba(0,0,0,0.3);
     }
     
-    header .top .manu .menu-toggle:hover {
-        /* color: orange;
-        background: white; */
-    }
-    
     /* Hide desktop menu */
     header .top .manu > ul {
         display: none;
