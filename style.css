@@ -7,7 +7,6 @@ body{
     display: flex;
     flex-direction: column;
     font-family: 'Poppins', sans-serif;
-    background: #ca9898;
 }
 
 /* header nav */
@@ -70,11 +69,14 @@ header .top .welcome{
     align-items: center;
 }
 header .top .welcome img{
-    width: 200px;
-    height: 200px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 157, 0);
+    border-radius: 50%;
+    margin: 20px;
 }
 header .top .welcome h1{
-    color: rgb(255, 157, 0);
+    color: white;
 }
 header .top .manu ul{
     display: flex;
@@ -141,7 +143,7 @@ header .top .manu .menu-list {
         background-image: none;
         background-color: rgb(29, 29, 29);
         position: relative;
-        padding-top: 70px;
+        padding-top: 10px;
     }
     
     /* Hamburger Menu Icon - Fixed at top right */
@@ -178,7 +180,7 @@ header .top .manu .menu-list {
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
-        padding-top: 60px;
+        padding-top: 0px;
         transition: right 0.3s ease-in-out;
         z-index: 1000;
         box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
@@ -294,15 +296,90 @@ header .top .manu .menu-list {
     }
     
     header .top .welcome img {
-        width: 80px;
-        height: 80px;
+        width: 150px;
+        height: 150px;
     }
     
     header .top .welcome h1 {
-        font-size: 16px;
+        font-size: 20px;
     }
     
     header .top .manu ul li a {
         font-size: 12px;
+    }
+}
+
+/* comment section styles */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+footer .comments-div{
+    
+}
+footer .comments-div .comment{
+    background-color: rgba(227, 224, 224, 0.871);
+}
+
+footer .comments-div .comment{
+    display: grid;
+    grid-template: 
+    "image name comment" auto
+    "image date comment" auto
+    / 50px 150px auto;
+    gap: 10px;
+    margin: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border-bottom-left-radius: 30px;
+    overflow: hidden;
+}
+.comments-div .comment .image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    grid-area: image;
+    object-fit: cover;
+}
+
+.comments-div .comment .name{
+    grid-area: name;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.comments-div .comment .date{
+    color: rgb(155, 153, 153);
+    grid-area: date;
+    position: relative;
+    top: -10px;
+}
+
+.comments-div .comment .comment-data{
+    grid-area: comment;
+    margin: 10px;
+}
+
+/* mobail responsive */
+@media screen and (max-width: 768px) {
+    footer .comments-div .comment {
+        grid-template:
+        "image name" auto
+        "date date" auto
+        "comment comment" auto
+        / 50px auto;
+        margin: 10px;
+        padding: 10px;
+    }
+    
+    footer .comments-div .comment .name {
+        padding-top: 0;
+    }
+    
+    footer .comments-div .comment .date {
+        top: 0;
     }
 }
