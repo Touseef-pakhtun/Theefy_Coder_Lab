@@ -58,8 +58,8 @@ nav .list ul li a:hover{
 /* header top */
 header .top{
     background-color: rgb(29, 29, 29);
-    background-image: url('./images/lanuguge.jpg');
-    background-size: 32vw 100%;
+    background-image: url('./images/top.jpg');
+    background-size: 50vw 100%;
     background-repeat: no-repeat;
     background-position: right center;
     padding-bottom: 10px;
@@ -89,6 +89,7 @@ header .top .manu ul{
 }
 header .top .manu ul li{
     margin: 0 10px;
+    margin-top: 20px;
 }
 header .top .manu ul li a{
     font-weight: bold;

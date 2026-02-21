@@ -1,0 +1,202 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+/* Main container - displays class cards in a row/grid */
+.classes{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+}
+
+/* Each individual class card - this uses the grid */
+.classes .class {
+    width: 45%;
+    min-width: 400px;
+    max-width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "classno classno"
+        "text image"
+        "text text";
+    gap: 0;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.classes .class:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.4);
+}
+
+/* Heading - Row 1 */
+.classes .class .class-no {
+    grid-column: 1 / -1;
+    grid-row: 1;
+    background: linear-gradient(135deg, #ff6b6b 0%, #ffa500 100%);
+    color: white;
+    text-align: center;
+    padding: 25px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+/* Text - Row 2, Column 1 */
+.classes .class .text {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 25px;
+    background: linear-gradient(180deg, #ffffff 0%, #f8f9fa 100%);
+    overflow-wrap: break-word;
+}
+
+.classes .class .text h3.course {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: 700;
+    line-height: 1.4;
+}
+
+.classes .class .text span {
+    display: block;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+.classes .class .text span b {
+    color: #764ba2;
+}
+
+/* Image - Row 2, Column 2 */
+.classes .class .image {
+    grid-column: 2;
+    grid-row: 2;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.classes .class .image img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    max-height: 250px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.classes .class .image img:hover {
+    transform: scale(1.05);
+}
+
+/* Text Continue - Row 3, Full Width */
+.classes .class .text-continue {
+    grid-column: 1 / -1;
+    grid-row: 3;
+    padding: 25px;
+    background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+    overflow-wrap: break-word;
+    border-top: 3px solid #667eea;
+}
+
+.classes .class .text-continue span {
+    display: block;
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.7;
+    padding: 8px 12px;
+    background: white;
+    border-radius: 8px;
+    margin-right: 10px;
+    transition: background 0.3s ease;
+}
+
+.classes .class .text-continue span:hover {
+    background: #f0f0f0;
+}
+
+.classes .class .text-continue span b {
+    color: #764ba2;
+    font-weight: 600;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 900px) {
+    .classes .class {
+        width: 90%;
+        min-width: 300px;
+    }
+    
+    .classes .class .class-no {
+        font-size: 22px;
+        padding: 20px;
+    }
+    
+    .classes .class .text h3.course {
+        font-size: 18px;
+    }
+    
+    .classes .class .image img {
+        max-width: 150px;
+        max-height: 200px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .classes {
+        padding: 20px;
+        gap: 30px;
+    }
+    
+    .classes .class {
+        width: 100%;
+        min-width: 280px;
+    }
+    
+    .classes .class .class-no {
+        font-size: 18px;
+        padding: 15px;
+    }
+    
+    .classes .class .text,
+    .classes .class .text-continue {
+        padding: 15px;
+    }
+    
+    .classes .class .image {
+        padding: 15px;
+    }
+    
+    .classes .class .image img {
+        max-width: 120px;
+        max-height: 150px;
+    }
+}
