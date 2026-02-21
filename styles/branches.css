@@ -1,0 +1,242 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main branches container with beautiful gradient background */
+.branches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100vw;
+    padding: 40px 20px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    min-height: 100vh;
+}
+
+/* Branch card styling with glass morphism effect */
+.branches .branch {
+    width: 45%;
+    min-width: 350px;
+    background: linear-gradient(145deg, rgba(255, 255, 255, 0.95), rgba(245, 245, 250, 0.9));
+    border-radius: 20px;
+    box-shadow: 
+        0 15px 35px rgba(0, 0, 0, 0.2),
+        0 5px 15px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.8);
+    overflow: hidden;
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+}
+
+/* Decorative gradient overlay on cards */
+.branches .branch::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+}
+
+/* Hover effect */
+.branches .branch:hover {
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 
+        0 25px 50px rgba(102, 126, 234, 0.3),
+        0 10px 20px rgba(0, 0, 0, 0.15),
+        inset 0 1px 0 rgba(255, 255, 255, 0.9);
+}
+
+/* Branch heading styling */
+.branches .branch h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #1a1a2e;
+    padding: 20px 25px 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-shadow: none;
+    position: relative;
+    letter-spacing: 0.5px;
+}
+
+/* Decorative line under heading */
+.branches .branch h2::after {
+    content: '';
+    position: absolute;
+    bottom: 8px;
+    left: 25px;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+}
+
+/* Info section styling */
+.branches .branch .info {
+    display: flex;
+    padding: 20px 25px;
+    gap: 25px;
+    align-items: stretch;
+}
+
+/* About branch section */
+.branches .branch .info .about-branch {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 50%;
+    justify-content: center;
+}
+
+/* Individual info items with icon styling */
+.branches .branch .info .about-branch span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+    color: #4a4a6a;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+/* Bold labels with gradient background */
+.branches .branch .info .about-branch span b {
+    color: #667eea;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    white-space: nowrap;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+}
+
+/* Image container with styling */
+.branches .branch .image {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* Image styling with rounded corners and shadow */
+.branches .branch .image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 
+        0 8px 20px rgba(0, 0, 0, 0.15),
+        0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease;
+    border: 3px solid white;
+}
+
+.branches .branch:hover .image img {
+    transform: scale(1.05);
+}
+
+/* Alternate layout for odd branches */
+.branches .branch:nth-child(odd) .info {
+    flex-direction: row;
+}
+
+.branches .branch:nth-child(even) .info {
+    flex-direction: row-reverse;
+}
+
+/* Responsive design for smaller screens */
+@media screen and (max-width: 768px) {
+    .branches {
+        padding: 20px 15px;
+        gap: 20px;
+    }
+    
+    .branches .branch {
+        width: 100%;
+        min-width: unset;
+    }
+    
+    .branches .branch h2 {
+        font-size: 1.5rem;
+        padding: 15px 20px 12px;
+    }
+    
+    .branches .branch .info {
+        flex-direction: column !important;
+        padding: 15px;
+        gap: 15px;
+    }
+    
+    .branches .branch .info .about-branch,
+    .branches .branch .image {
+        width: 100%;
+    }
+    
+    .branches .branch .image img {
+        height: 180px;
+    }
+}
+
+/* Animation for cards appearing */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.branches .branch {
+    animation: fadeInUp 0.6s ease forwards;
+}
+
+.branches .branch:nth-child(1) { animation-delay: 0.1s; }
+.branches .branch:nth-child(2) { animation-delay: 0.2s; }
+.branches .branch:nth-child(3) { animation-delay: 0.3s; }
+.branches .branch:nth-child(4) { animation-delay: 0.4s; }
+.branches .branch:nth-child(5) { animation-delay: 0.5s; }
+.branches .branch:nth-child(6) { animation-delay: 0.6s; }
+.branches .branch:nth-child(7) { animation-delay: 0.7s; }
+.branches .branch:nth-child(8) { animation-delay: 0.8s; }
+
+/* Floating particles effect in background */
+.branches::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: 
+        radial-gradient(circle at 20% 80%, rgba(102, 126, 234, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(118, 75, 162, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 40% 40%, rgba(240, 147, 251, 0.08) 0%, transparent 40%);
+    pointer-events: none;
+    z-index: 0;
+}
+
+.branches > * {
+    position: relative;
+    z-index: 1;
+}
