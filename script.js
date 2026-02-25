@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (menuToggle && menuList) {
         menuToggle.addEventListener('click', function() {
             menuList.classList.toggle('active');
+            menuToggle.classList.toggle('active');
             
             // Toggle icon between bars and times
             const icon = menuToggle.querySelector('i');
@@ -23,6 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
         menuLinks.forEach(function(link) {
             link.addEventListener('click', function() {
                 menuList.classList.remove('active');
+                menuToggle.classList.remove('active');
                 const icon = menuToggle.querySelector('i');
                 icon.classList.remove('fa-times');
                 icon.classList.add('fa-bars');

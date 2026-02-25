@@ -1,0 +1,351 @@
+/* Student Cards Styling - Theefy Coder Lab */
+
+/* Main container styles */
+.students {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+    padding: 40px 20px;
+}
+
+.students .content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.students .content h2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.students .content h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+}
+
+.students .content p {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+}
+
+/* Students Grid */
+.students-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 20px 0;
+}
+
+/* Student Card */
+.student-card {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+    border: none;
+}
+
+/* Student Number Badge */
+.student-card .student-number {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1rem;
+    box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+    z-index: 10;
+}
+
+.student-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 6px;
+    background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+    background-size: 200% 100%;
+    animation: gradientMove 3s ease infinite;
+}
+
+@keyframes gradientMove {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+}
+
+.student-card:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 25px 60px rgba(102, 126, 234, 0.25);
+}
+
+/* Student Image */
+.student-card .student-image {
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px 10px;
+    position: relative;
+}
+
+.student-card .student-image::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    width: 140px;
+    height: 140px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 50%;
+    z-index: 0;
+    opacity: 0.15;
+}
+
+.student-card .student-image img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    position: relative;
+    z-index: 1;
+    transition: transform 0.4s ease;
+}
+
+.student-card:hover .student-image img {
+    transform: scale(1.08) rotate(3deg);
+}
+
+/* Student Info */
+.student-card .student-info {
+    padding: 15px 25px 30px;
+    text-align: center;
+}
+
+.student-card .student-name {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    position: relative;
+    display: inline-block;
+}
+
+.student-card .student-name::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 40px;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+    border-radius: 2px;
+}
+
+/* Program Badge */
+.student-card .student-program {
+    display: inline-block;
+    background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+}
+
+/* Info Items */
+.student-card .student-info p {
+    margin: 8px 0;
+    font-size: 0.95rem;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.student-card .student-info p strong {
+    color: #667eea;
+    font-weight: 700;
+    min-width: 70px;
+    text-align: right;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.student-card .student-info p span {
+    color: #2c3e50;
+    font-weight: 500;
+}
+
+/* Email Link */
+.student-card .student-email {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px dashed #e0e0e0;
+}
+
+.student-card .student-email a {
+    color: #667eea;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+}
+
+.student-card .student-email a:hover {
+    color: #764ba2;
+    transform: translateX(3px);
+}
+
+.student-card .student-email i {
+    font-size: 1rem;
+}
+
+/* Roll Number Special Styling */
+.student-card .student-roll {
+    background: #f8f9fa;
+    padding: 8px 15px;
+    border-radius: 8px;
+    margin: 10px 0 !important;
+    border-left: 3px solid #e74c3c;
+}
+
+.student-card .student-roll span {
+    font-family: 'Courier New', monospace;
+    font-weight: 700;
+    color: #e74c3c;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+}
+
+/* Age Badge */
+.student-card .student-age span {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    color: white;
+    padding: 4px 14px;
+    border-radius: 15px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(56, 239, 125, 0.3);
+}
+
+/* Father Name */
+.student-card .student-father span {
+    font-style: italic;
+}
+
+/* Error Message */
+.error-message {
+    text-align: center;
+    padding: 40px;
+    color: #e74c3c;
+    font-size: 1.2rem;
+    background: #ffeaea;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .students-grid {
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+    
+    .students .content h2 {
+        font-size: 1.8rem;
+    }
+    
+    .student-card .student-image img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 480px) {
+    .students {
+        padding: 20px 10px;
+    }
+    
+    .students-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .students .content h2 {
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+    }
+}
+
+/* Loading Animation */
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.student-card {
+    animation: cardAppear 0.6s ease forwards;
+}
+
+.student-card:nth-child(1) { animation-delay: 0.05s; }
+.student-card:nth-child(2) { animation-delay: 0.1s; }
+.student-card:nth-child(3) { animation-delay: 0.15s; }
+.student-card:nth-child(4) { animation-delay: 0.2s; }
+.student-card:nth-child(5) { animation-delay: 0.25s; }
+.student-card:nth-child(6) { animation-delay: 0.3s; }
+.student-card:nth-child(7) { animation-delay: 0.35s; }
+.student-card:nth-child(8) { animation-delay: 0.4s; }
+.student-card:nth-child(9) { animation-delay: 0.45s; }
+.student-card:nth-child(10) { animation-delay: 0.5s; }
+.student-card:nth-child(11) { animation-delay: 0.55s; }
+.student-card:nth-child(12) { animation-delay: 0.6s; }
+
+/* Staggered animation for more cards */
+@media (min-width: 768px) {
+    .student-card:nth-child(n+13) { animation-delay: 0.65s; }
+}

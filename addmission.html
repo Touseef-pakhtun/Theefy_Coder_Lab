@@ -7,6 +7,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/addmission.css">
     <script src="script.js" defer></script>
 </head>
 <body>
@@ -59,9 +60,72 @@
             <h2>Admission</h2>
             <p>Join Theefy Coder Lab today!</p>
         </section>
+        <section id="admission-page">
+  <h2>Admissions Open</h2>
+  <p>Join Theefy_Coder_Lab and start your coding journey today!</p>
+
+  <h3>Eligibility</h3>
+  <p>Open to all learners with a passion for coding. Basic computer knowledge recommended.</p>
+
+  <h3>Programs Offered</h3>
+  <ul>
+    <li>Frontend Foundations: HTML & CSS – Learn the basics of HTML and CSS to build your first web page.</li>
+    <li>JavaScript Basics for Beginners – Learn the fundamentals of JavaScript programming.</li>
+    <li>DOM Manipulation & Event Handling – Learn how to manipulate the DOM and handle events in JavaScript.</li>
+    <li>Mastering Git & Version Control – Learn advanced Git commands and version control best practices.</li>
+    <li>JavaScript Promises & Async Programming – Learn how to handle asynchronous operations in JavaScript.</li>
+    <li>API Integration Project – Integrate third-party APIs into web applications.</li>
+    <li>Responsive Web Design – Learn how to create websites that adapt to different screen sizes.</li>
+    <li>UI/UX Essentials – Learn fundamental UI/UX design principles.</li>
+    <li>Website Branding & Verification Badge – Learn how to brand your website and obtain verification badges.</li>
+    <li>Portfolio Development Workshop – Learn how to build a professional portfolio.</li>
+  </ul>
+
+  <h3>Admission Process</h3>
+  <ol>
+    <li>Fill out the form below.</li>
+    <li>Submit your details.</li>
+    <li>Receive confirmation email.</li>
+    <li>Begin your classes.</li>
+  </ol>
+  <div class="applyClass">
+  <h3>Apply Now</h3>
+  
+  <form id="admission-form">
+    <label>Name:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>Upload Picture:</label><br>
+    <input type="file" name="picture" accept="image/*" required><br><br>
+
+    <label>Select Course:</label><br>
+    <select name="course">
+      <option>Frontend Foundations: HTML & CSS</option>
+      <option>JavaScript Basics for Beginners</option>
+      <option>DOM Manipulation & Event Handling</option>
+      <option>Mastering Git & Version Control</option>
+      <option>JavaScript Promises & Async Programming</option>
+      <option>API Integration Project</option>
+      <option>Responsive Web Design</option>
+      <option>UI/UX Essentials</option>
+      <option>Website Branding & Verification Badge</option>
+      <option>Portfolio Development Workshop</option>
+    </select><br><br>
+
+    <label>Message:</label><br>
+    <textarea name="message"></textarea><br><br>
+
+    <button class="submit">Submit Application</button>
+  </form>
+  </div>
+</section>
     </main>
     <footer>
         <p>&copy; 2024 Theefy Coder Lab. All rights reserved.</p>
     </footer>
+    <script src="scripts/addmission.js"></script>
 </body>
 </html>

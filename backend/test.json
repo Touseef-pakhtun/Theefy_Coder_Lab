@@ -7,7 +7,7 @@
         "email": "jhonjrk@gmail.com",
         "roll": "0001-efg-247",
         "program": "JavaScript",
-        "image": "./images/student/1.jpg"
+        "image": "../images/student/1.jpg"
     },
     {
         "id": 2,
@@ -17,7 +17,7 @@
         "email": "aliahmed@gmail.com",
         "roll": "0002-efg-248",
         "program": "Python",
-        "image": "./images/student/2.jpg"
+        "image": "../images/student/2.jpg"
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "email": "sarakhan@gmail.com",
         "roll": "0003-efg-249",
         "program": "Web Development",
-        "image": "./images/student/3.jpg"
+        "image": "../images/student/3.jpg"
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "email": "mbilal@gmail.com",
         "roll": "0004-efg-250",
         "program": "Data Science",
-        "image": "./images/student/4.jpg"
+        "image": "../images/student/4.jpg"
     },
     {
         "id": 5,
@@ -47,7 +47,7 @@
         "email": "fatimaali@gmail.com",
         "roll": "0005-efg-251",
         "program": "JavaScript",
-        "image": "./images/student/5.jpg"
+        "image": "../images/student/5.jpg"
     },
     {
         "id": 6,
@@ -57,7 +57,7 @@
         "email": "omarfarooq@gmail.com",
         "roll": "0006-efg-252",
         "program": "React",
-        "image": "./images/student/6.jpg"
+        "image": "../images/student/6.jpg"
     },
     {
         "id": 7,
@@ -67,7 +67,7 @@
         "email": "aishamalik@gmail.com",
         "roll": "0007-efg-253",
         "program": "Python",
-        "image": "./images/student/7.jpg"
+        "image": "../images/student/7.jpg"
     },
     {
         "id": 8,
@@ -77,7 +77,7 @@
         "email": "hassanraza@gmail.com",
         "roll": "0008-efg-254",
         "program": "Mobile Development",
-        "image": "./images/student/8.jpg"
+        "image": "../images/student/8.jpg"
     },
     {
         "id": 9,
@@ -87,7 +87,7 @@
         "email": "zainabahmed@gmail.com",
         "roll": "0009-efg-255",
         "program": "Web Development",
-        "image": "./images/student/9.jpg"
+        "image": "../images/student/9.jpg"
     },
     {
         "id": 10,
@@ -97,7 +97,7 @@
         "email": "ahmedali@gmail.com",
         "roll": "0010-efg-256",
         "program": "Data Science",
-        "image": "./images/student/10.jpg"
+        "image": "../images/student/10.jpg"
     },
     {
         "id": 11,
@@ -107,7 +107,7 @@
         "email": "noorfatima@gmail.com",
         "roll": "0011-efg-257",
         "program": "JavaScript",
-        "image": "./images/student/11.jpg"
+        "image": "../images/student/11.jpg"
     },
     {
         "id": 12,
@@ -117,7 +117,7 @@
         "email": "saadkhan@gmail.com",
         "roll": "0012-efg-258",
         "program": "Python",
-        "image": "./images/student/12.jpg"
+        "image": "../images/student/12.jpg"
     },
     {
         "id": 13,
@@ -127,7 +127,7 @@
         "email": "maryamrashid@gmail.com",
         "roll": "0013-efg-259",
         "program": "React",
-        "image": "./images/student/13.jpg"
+        "image": "../images/student/13.jpg"
     },
     {
         "id": 14,
@@ -137,7 +137,7 @@
         "email": "faizanullah@gmail.com",
         "roll": "0014-efg-260",
         "program": "Full Stack",
-        "image": "./images/student/14.jpg"
+        "image": "../images/student/14.jpg"
     },
     {
         "id": 15,
@@ -147,7 +147,7 @@
         "email": "hirashah@gmail.com",
         "roll": "0015-efg-261",
         "program": "Web Development",
-        "image": "./images/student/15.jpg"
+        "image": "../images/student/15.jpg"
     },
     {
         "id": 16,
@@ -157,196 +157,196 @@
         "email": "danishali@gmail.com",
         "roll": "0016-efg-262",
         "program": "Data Science",
-        "image": "./images/student/16.jpg"
+        "image": "../images/student/16.jpg"
     },
     {
         "id": 17,
-        "name": "Usman Ghani",
-        "father-name": "Abdul Ghani",
-        "age": 20,
-        "email": "usmanghani@gmail.com",
-        "roll": "0017-efg-263",
-        "program": "JavaScript",
-        "image": "./images/student/17.jpg"
-    },
-    {
-        "id": 18,
-        "name": "Amna Bibi",
-        "father-name": "Khalid Bibi",
-        "age": 23,
-        "email": "amnabibi@gmail.com",
-        "roll": "0018-efg-264",
-        "program": "Python",
-        "image": "./images/student/18.jpg"
-    },
-    {
-        "id": 19,
-        "name": "Kashan Haider",
-        "father-name": "Zaheer Haider",
-        "age": 21,
-        "email": "kashanhaider@gmail.com",
-        "roll": "0019-efg-265",
-        "program": "React",
-        "image": "./images/student/19.jpg"
-    },
-    {
-        "id": 20,
-        "name": "Lubna Nazir",
-        "father-name": "Muhammad Nazir",
-        "age": 25,
-        "email": "lubnanazir@gmail.com",
-        "roll": "0020-efg-266",
-        "program": "Mobile Development",
-        "image": "./images/student/20.jpg"
-    },
-    {
-        "id": 21,
-        "name": "Waqar Ahmed",
-        "father-name": "Shoaib Ahmed",
-        "age": 22,
-        "email": "waqarahmed@gmail.com",
-        "roll": "0021-efg-267",
-        "program": "Web Development",
-        "image": "./images/student/21.jpg"
-    },
-    {
-        "id": 22,
-        "name": "Sadia Parvez",
-        "father-name": "Khalid Parvez",
-        "age": 24,
-        "email": "sadiaparvez@gmail.com",
-        "roll": "0022-efg-268",
-        "program": "Data Science",
-        "image": "./images/student/22.jpg"
-    },
-    {
-        "id": 23,
-        "name": "Ammar Hussain",
-        "father-name": "Raza Hussain",
-        "age": 20,
-        "email": "ammarhussain@gmail.com",
-        "roll": "0023-efg-269",
-        "program": "JavaScript",
-        "image": "./images/student/23.jpg"
-    },
-    {
-        "id": 24,
-        "name": "Komal Shahid",
-        "father-name": "Shahid Mehmood",
-        "age": 23,
-        "email": "komalshahid@gmail.com",
-        "roll": "0024-efg-270",
-        "program": "Python",
-        "image": "./images/student/24.jpg"
-    },
-    {
-        "id": 25,
-        "name": "Noman Arshad",
-        "father-name": "Mansoor Arshad",
-        "age": 21,
-        "email": "nomanarshad@gmail.com",
-        "roll": "0025-efg-271",
-        "program": "React",
-        "image": "./images/student/25.jpg"
-    },
-    {
-        "id": 26,
-        "name": "Rabia Akhtar",
-        "father-name": "Shaukat Akhtar",
-        "age": 26,
-        "email": "rabiaakhtar@gmail.com",
-        "roll": "0026-efg-272",
-        "program": "Full Stack",
-        "image": "./images/student/26.jpg"
-    },
-    {
-        "id": 27,
-        "name": "Tariq Jamil",
-        "father-name": "Jamil Ahmed",
-        "age": 22,
-        "email": "tariqjamil@gmail.com",
-        "roll": "0027-efg-273",
-        "program": "Web Development",
-        "image": "./images/student/27.jpg"
-    },
-    {
-        "id": 28,
-        "name": "Nida Rashid",
-        "father-name": "Asif Rashid",
-        "age": 24,
-        "email": "nidarashid@gmail.com",
-        "roll": "0028-efg-274",
-        "program": "Data Science",
-        "image": "./images/student/28.jpg"
-    },
-    {
-        "id": 29,
-        "name": "Adnan Khan",
-        "father-name": "Waqar Khan",
-        "age": 20,
-        "email": "adnankhan@gmail.com",
-        "roll": "0029-efg-275",
-        "program": "JavaScript",
-        "image": "./images/student/29.jpg"
-    },
-    {
-        "id": 30,
-        "name": "Samreen Fatima",
-        "father-name": "Saadat Fatima",
-        "age": 23,
-        "email": "samreenfatima@gmail.com",
-        "roll": "0030-efg-276",
-        "program": "Python",
-        "image": "./images/student/30.jpg"
-    },
-    {
-        "id": 31,
-        "name": "Shahzad Ahmed",
-        "father-name": "Sabir Ahmed",
-        "age": 21,
-        "email": "shahzadahmed@gmail.com",
-        "roll": "0031-efg-277",
-        "program": "React",
-        "image": "./images/student/31.jpg"
-    },
-    {
-        "id": 32,
-        "name": "Afsheen Bano",
-        "father-name": "Aftab Bano",
-        "age": 25,
-        "email": "afsheenbano@gmail.com",
-        "roll": "0032-efg-278",
-        "program": "Mobile Development",
-        "image": "./images/student/32.jpg"
-    },
-    {
-        "id": 33,
-        "name": "Rashid Mehmood",
-        "father-name": "Gulzar Mehmood",
-        "age": 22,
-        "email": "rashidmehmood@gmail.com",
-        "roll": "0033-efg-279",
-        "program": "Web Development",
-        "image": "./images/student/33.jpg"
-    },
-    {
-        "id": 34,
-        "name": "Saima Naz",
-        "father-name": "Shafqat Naz",
-        "age": 24,
-        "email": "saimanaz@gmail.com",
-        "roll": "0034-efg-280",
-        "program": "Data Science",
-        "image": "./images/student/34.jpg"
-    },
-    {
-        "id": 35,
         "name": "Sana Ullah",
         "father-name": "Gul Ullah",
         "age": 20,
         "email": "sanullah@gmail.com",
+        "roll": "0017-efg-263",
+        "program": "JavaScript",
+        "image": "../images/student/17.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Usman Ghani",
+        "father-name": "Abdul Ghani",
+        "age": 23,
+        "email": "usmanghani@gmail.com",
+        "roll": "0018-efg-264",
+        "program": "Python",
+        "image": "../images/student/18.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Amna Bibi",
+        "father-name": "Khalid Bibi",
+        "age": 21,
+        "email": "amnabibi@gmail.com",
+        "roll": "0019-efg-265",
+        "program": "React",
+        "image": "../images/student/19.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Kashan Haider",
+        "father-name": "Zaheer Haider",
+        "age": 25,
+        "email": "kashanhaider@gmail.com",
+        "roll": "0020-efg-266",
+        "program": "Mobile Development",
+        "image": "../images/student/20.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Lubna Nazir",
+        "father-name": "Muhammad Nazir",
+        "age": 22,
+        "email": "lubnanazir@gmail.com",
+        "roll": "0021-efg-267",
+        "program": "Web Development",
+        "image": "../images/student/21.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Waqar Ahmed",
+        "father-name": "Shoaib Ahmed",
+        "age": 24,
+        "email": "waqarahmed@gmail.com",
+        "roll": "0022-efg-268",
+        "program": "Data Science",
+        "image": "../images/student/22.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Sadia Parvez",
+        "father-name": "Khalid Parvez",
+        "age": 20,
+        "email": "sadiaparvez@gmail.com",
+        "roll": "0023-efg-269",
+        "program": "JavaScript",
+        "image": "../images/student/23.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Ammar Hussain",
+        "father-name": "Raza Hussain",
+        "age": 23,
+        "email": "ammarhussain@gmail.com",
+        "roll": "0024-efg-270",
+        "program": "Python",
+        "image": "../images/student/24.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Komal Shahid",
+        "father-name": "Shahid Mehmood",
+        "age": 21,
+        "email": "komalshahid@gmail.com",
+        "roll": "0025-efg-271",
+        "program": "React",
+        "image": "../images/student/25.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Noman Arshad",
+        "father-name": "Mansoor Arshad",
+        "age": 26,
+        "email": "nomanarshad@gmail.com",
+        "roll": "0026-efg-272",
+        "program": "Full Stack",
+        "image": "../images/student/26.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Rabia Akhtar",
+        "father-name": "Shaukat Akhtar",
+        "age": 22,
+        "email": "rabiaakhtar@gmail.com",
+        "roll": "0027-efg-273",
+        "program": "Web Development",
+        "image": "../images/student/27.jpg"
+    },
+    {
+        "id": 28,
+        "name": "Tariq Jamil",
+        "father-name": "Jamil Ahmed",
+        "age": 24,
+        "email": "tariqjamil@gmail.com",
+        "roll": "0028-efg-274",
+        "program": "Data Science",
+        "image": "../images/student/28.jpg"
+    },
+    {
+        "id": 29,
+        "name": "Nida Rashid",
+        "father-name": "Asif Rashid",
+        "age": 20,
+        "email": "nidarashid@gmail.com",
+        "roll": "0029-efg-275",
+        "program": "JavaScript",
+        "image": "../images/student/29.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Adnan Khan",
+        "father-name": "Waqar Khan",
+        "age": 23,
+        "email": "adnankhan@gmail.com",
+        "roll": "0030-efg-276",
+        "program": "Python",
+        "image": "../images/student/30.jpg"
+    },
+    {
+        "id": 31,
+        "name": "Samreen Fatima",
+        "father-name": "Saadat Fatima",
+        "age": 21,
+        "email": "samreenfatima@gmail.com",
+        "roll": "0031-efg-277",
+        "program": "React",
+        "image": "../images/student/31.jpg"
+    },
+    {
+        "id": 32,
+        "name": "Shahzad Ahmed",
+        "father-name": "Sabir Ahmed",
+        "age": 25,
+        "email": "shahzadahmed@gmail.com",
+        "roll": "0032-efg-278",
+        "program": "Mobile Development",
+        "image": "../images/student/32.jpg"
+    },
+    {
+        "id": 33,
+        "name": "Afsheen Bano",
+        "father-name": "Aftab Bano",
+        "age": 22,
+        "email": "afsheenbano@gmail.com",
+        "roll": "0033-efg-279",
+        "program": "Web Development",
+        "image": "../images/student/33.jpg"
+    },
+    {
+        "id": 34,
+        "name": "Rashid Mehmood",
+        "father-name": "Gulzar Mehmood",
+        "age": 24,
+        "email": "rashidmehmood@gmail.com",
+        "roll": "0034-efg-280",
+        "program": "Data Science",
+        "image": "../images/student/34.jpg"
+    },
+    {
+        "id": 35,
+        "name": "Saima Naz",
+        "father-name": "Shafqat Naz",
+        "age": 20,
+        "email": "saimanaz@gmail.com",
         "roll": "0035-efg-281",
         "program": "JavaScript",
-        "image": "./images/student/35.jpg"
+        "image": "../images/student/35.jpg"
     }
 ]

@@ -113,18 +113,17 @@
 
 /* Bold labels with gradient background */
 .branches .branch .info .about-branch span b {
-    color: #667eea;
+    color: #ffffff;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 4px 10px;
     border-radius: 20px;
     font-size: 0.75rem;
-    font-weight: 600;
+    font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
     white-space: nowrap;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
     box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+    display: inline-block;
 }
 
 /* Image container with styling */
