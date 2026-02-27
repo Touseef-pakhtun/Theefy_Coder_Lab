@@ -1,0 +1,147 @@
+/* Study Section Styles */
+.study-section {
+    margin: 40px 20px;
+    padding: 30px;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    border-radius: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.study-section h3 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 32px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #3498db;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.study-intro {
+    text-align: center;
+    color: #555;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.study-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.study-card {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.study-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+.study-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.4s ease;
+}
+
+.study-card:hover img {
+    transform: scale(1.1);
+}
+
+.study-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    padding: 30px 15px 15px;
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+}
+
+.study-card:hover .study-overlay {
+    transform: translateY(0);
+}
+
+.study-overlay span {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 16px;
+    background: #3498db;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Responsive Study Section */
+@media screen and (max-width: 1024px) {
+    .study-grid {
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    }
+    
+    .study-card img {
+        height: 220px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .study-section {
+        margin: 30px 15px;
+        padding: 20px;
+    }
+    
+    .study-section h3 {
+        font-size: 26px;
+    }
+    
+    .study-intro {
+        font-size: 16px;
+    }
+    
+    .study-grid {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 15px;
+    }
+    
+    .study-card img {
+        height: 180px;
+    }
+    
+    .study-overlay {
+        transform: translateY(0);
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%);
+    }
+    
+    .study-overlay span {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .study-section h3 {
+        font-size: 22px;
+    }
+    
+    .study-grid {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+        gap: 10px;
+    }
+    
+    .study-card img {
+        height: 150px;
+    }
+}

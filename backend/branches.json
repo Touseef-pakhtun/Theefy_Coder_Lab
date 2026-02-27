@@ -1,0 +1,59 @@
+[
+    {
+        "branchName":"Peshwar-Branch",
+        "location":"Peshwar, Pakistan",
+        "about":"This branch is located in Peshwar, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch1.jpg"
+    },{
+        "branchName":"Islamabad-Branch",
+        "location":"Islamabad, Pakistan",
+        "about":"This branch is located in Islamabad, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch2.jpg"
+    },{
+        "branchName":"Karachi-Branch",
+        "location":"Karachi, Pakistan",
+        "about":"This branch is located in Karachi, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch3.jpg"
+    },{
+        "branchName":"Lahore-Branch",
+        "location":"Lahore, Pakistan",
+        "about":"This branch is located in Lahore, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch4.jpg"
+    },{
+        "branchName":"Multan-Branch",
+        "location":"Multan, Pakistan",
+        "about":"This branch is located in Multan, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch5.jpg"
+    },{
+        "branchName":"Quetta-Branch",
+        "location":"Quetta, Pakistan",
+        "about":"This branch is located in Quetta, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch6.jpg"
+    },{
+        "branchName":"Faisalabad-Branch",
+        "location":"Faisalabad, Pakistan",
+        "about":"This branch is located in Faisalabad, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch7.jpg"
+    },{
+        "branchName":"Hyderabad-Branch",
+        "location":"Hyderabad, Pakistan",
+        "about":"This branch is located in Hyderabad, Pakistan and offers courses in programming and web development.",
+        "facilities":"Computer labs, libraries, and study areas.",
+        "timing":"9:00 AM - 5:00 PM",
+        "image":"images/branches/branch8.jpg"
+    }
+]

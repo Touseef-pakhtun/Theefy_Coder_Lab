@@ -1,3 +1,5 @@
+import {fetchBranches} from './scripts/branches.js'
+fetchBranches();
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('mobile-menu');
