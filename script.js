@@ -1,5 +1,9 @@
-import {fetchBranches} from './scripts/branches.js'
-fetchBranches();
+// import {fetchBranches} from './scripts/branches.js'
+
+// Only run fetchBranches if the target element exists on the page
+// if (document.querySelector('.branche-items')) {
+//     fetchBranches();
+// }
 // Mobile Menu Toggle
 document.addEventListener('DOMContentLoaded', function() {
     const menuToggle = document.getElementById('mobile-menu');

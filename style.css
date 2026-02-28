@@ -422,6 +422,22 @@ header .top .manu .menu-list {
         font-size: 20px;
         color: rgb(255, 157, 0);
     }
+    
+    /* Main h1 responsive styles */
+    main > h1 {
+        font-size: 1.8rem;
+        padding: 15px 25px;
+        max-width: 280px;
+    }
+    
+    main > h1::before {
+        bottom: -16px;
+        font-size: 10px;
+    }
+    
+    main > h1:hover {
+        transform: translateX(-50%) scale(1.02);
+    }
 }
 
 /* Extra Small Mobile (phones) */
@@ -488,6 +504,69 @@ footer p {
     font-weight: 500;
     position: relative;
     z-index: 1;
+}
+
+/* main content styles */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* h1 tags in main section */
+main > h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin: 40px 0 30px;
+    position: relative;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    padding: 20px 40px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+    display: inline-block;
+    width: 100%;
+    max-width: 400px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Gradient underline effect */
+main > h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(90deg, #667eea, #764ba2, #f093fb);
+    border-radius: 2px;
+}
+
+/* Decorative dots on sides */
+/* main > h1::before {
+    content: '';
+    position: absolute;
+    bottom: -18px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #667eea;
+    font-size: 12px;
+    letter-spacing: 8px;
+} */
+
+/* Hover effect for h1 */
+main > h1:hover {
+    background: linear-gradient(135deg, #764ba2 0%, #f093fb 50%, #667eea 100%);
+    transform: translateX(-50%) scale(1.05);
+    box-shadow: 0 15px 40px rgba(102, 126, 234, 0.5);
+    cursor: default;
 }
 
 /* comment section styles */

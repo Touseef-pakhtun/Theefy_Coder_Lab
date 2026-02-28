@@ -1,0 +1,102 @@
+[
+        {
+            "id": 1,
+            "classNo": "Course 1",
+            "image": "images/classes/class1.jpg",
+            "course": "Frontend Foundations: HTML & CSS",
+            "instructor": "John Smith",
+            "shortNote": "Learn the basics of HTML and CSS to build your first web page.",
+            "benefits": "Build responsive websites, understand layout concepts, and create visually appealing designs.",
+            "improvements": "Enhance your skills in web development fundamentals and prepare for advanced topics."
+        },
+        {
+            "id": 2,
+            "classNo": "Course 2",
+            "image": "images/classes/class2.jpg",
+            "course": "JavaScript Basics for Beginners",
+            "instructor": "Jane Doe",
+            "shortNote": "Learn the fundamentals of JavaScript programming.",
+            "benefits": "Understand variables, functions, and control structures in JavaScript.",
+            "improvements": "Build interactive web applications using JavaScript."
+        },
+        {
+            "id": 3,
+            "classNo": "Course 3",
+            "image": "images/classes/class3.jpg",
+            "course": "DOM Manipulation & Event Handling",
+            "instructor": "Alex Johnson",
+            "shortNote": "Learn how to manipulate the DOM and handle events in JavaScript.",
+            "benefits": "Gain skills in dynamic web page updates and user interaction handling.",
+            "improvements": "Enhance your JavaScript programming skills for more interactive web applications."
+        },
+        {
+            "id": 4,
+            "classNo": "Course 4",
+            "image": "images/classes/class4.jpg",
+            "course": "Mastering Git & Version Control",
+            "instructor": "Michael Brown",
+            "shortNote": "Learn advanced Git commands and version control best practices.",
+            "benefits": "Manage code changes effectively, collaborate with teams, and maintain project history.",
+            "improvements": "Improve your workflow and become proficient in using Git for software development."
+        },
+        {
+            "id": 5,
+            "classNo": "Course 5",
+            "image": "images/classes/class5.jpg",
+            "course": "JavaScript Promises & Async Programming",
+            "instructor": "Sarah Williams",
+            "shortNote": "Learn how to handle asynchronous operations in JavaScript using Promises and async/await.",
+            "benefits": "Understand asynchronous programming concepts and improve your JavaScript skills.",
+            "improvements": "Write cleaner, more maintainable asynchronous code in modern JavaScript applications."
+        },
+        {
+            "id": 6,
+            "classNo": "Course 6",
+            "image": "images/classes/class6.jpg",
+            "course": "API Integration Project",
+            "instructor": "David Lee",
+            "shortNote": "Integrate third-party APIs into web applications and manage API data effectively.",
+            "benefits": "Learn to consume RESTful APIs and handle API responses in JavaScript applications.",
+            "improvements": "Develop skills in building robust web applications that interact with external services."
+        },
+        {
+            "id": 7,
+            "classNo": "Course 7",
+            "image": "images/classes/class7.jpg",
+            "course": "Responsive Web Design",
+            "instructor": "Emily Johnson",
+            "shortNote": "Learn how to create websites that adapt to different screen sizes and devices.",
+            "benefits": "Build websites that look great on desktops, tablets, and mobile devices.",
+            "improvements": "Improve your web design skills and create more user-friendly websites."
+        },
+        {
+            "id": 8,
+            "classNo": "Course 8",
+            "image": "images/classes/class8.jpg",
+            "course": "UI/UX Essentials",
+            "instructor": "Michael Chen",
+            "shortNote": "Learn fundamental UI/UX design principles and best practices for creating intuitive user interfaces.",
+            "benefits": "Understand how to design user interfaces that are both visually appealing and highly functional.",
+            "improvements": "Enhance your ability to create user-centered designs that improve user experience."
+        },
+        {
+            "id": 9,
+            "classNo": "Course 9",
+            "image": "images/classes/class9.jpg",
+            "course": "Website Branding & Verification Badge",
+            "instructor": "Sarah Williams",
+            "shortNote": "Learn how to brand your website and obtain verification badges for credibility and trustworthiness.",
+            "benefits": "Understand the importance of branding and verification in building a professional online presence.",
+            "improvements": "Develop skills in creating a consistent brand identity and obtaining verification badges for your website."
+        },
+        {
+            "id": 10,
+            "classNo": "Course 10",
+            "image": "images/classes/class10.jpg",
+            "course": "Portfolio Development Workshop",
+            "instructor": "James Wilson",
+            "shortNote": "Learn how to build a professional portfolio that showcases your skills and projects effectively.",
+            "benefits": "Develop a compelling portfolio that highlights your work and attracts potential employers or clients.",
+            "improvements": "Enhance your presentation skills and learn best practices for showcasing your projects in a portfolio."
+        }
+    ]
