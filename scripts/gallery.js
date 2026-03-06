@@ -61,6 +61,5 @@ function GalleryHtmlGenerator(data,key){
     data.forEach(Element => {
         gridImages.innerHTML += `<img src="${Element.img}" alt="Project 19"></img>`;
     })
-    
     // return image;
 }

@@ -1,5 +1,5 @@
 let news_container = document.querySelector('.news');
-async function fetchData() {
+export async function fetchData() {
     const reponse = await fetch('./backend/news.json');
     let data = await reponse.json();
     htmlGenerator(data);
