@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
     loadStudents();
 });
 
-async function loadStudents() {
+export async function loadStudents() {
     const studentContainer = document.getElementById('student-container');
     
     if (!studentContainer) {

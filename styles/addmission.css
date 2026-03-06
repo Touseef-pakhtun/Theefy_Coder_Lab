@@ -1,6 +1,10 @@
 /* Admission Page Styling - Theefy Coder Lab */
 
 /* Main content styling */
+header{
+    margin-bottom: 30px;
+}
+
 main .content {
     display: flex;
     flex-direction: column;

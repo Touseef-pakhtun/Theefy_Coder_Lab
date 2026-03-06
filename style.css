@@ -552,6 +552,9 @@ main > h1::after {
     border-radius: 2px;
 }
 
+.student-itmes{
+    margin: 20px;
+}
 /* Decorative dots on sides */
 /* main > h1::before {
     content: '';
