@@ -8,6 +8,10 @@
 }
 
 /* Main branches container with beautiful gradient background */
+.branche-items{
+    padding: 0;
+    margin: 0%;
+}
 .branches {
     display: flex;
     flex-wrap: wrap;

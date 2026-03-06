@@ -1,7 +1,6 @@
 let section = document.createElement('section');
 section.className = 'classes';
 
-
 export async function fetchcourse() {
     let course_div = document.querySelector('.courses-item');
     let course = await fetch('./backend/courses.json');

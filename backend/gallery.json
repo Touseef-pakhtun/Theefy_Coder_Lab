@@ -1,0 +1,605 @@
+{
+    "project" : [
+        {
+            "img":"images/gallery/project/1.jpg",
+            "alt":"Project 1"
+        },
+        {
+            "img":"images/gallery/project/2.jpg",
+            "alt":"Project 2"
+        },
+        {
+            "img":"images/gallery/project/3.jpg",
+            "alt":"Project 3"
+        },
+        {
+            "img":"images/gallery/project/4.jpg",
+            "alt":"Project 4"
+        },
+        {
+            "img":"images/gallery/project/5.jpg",
+            "alt":"Project 5"
+        },
+        {
+            "img":"images/gallery/project/6.jpg",
+            "alt":"Project 6"
+        },
+        {
+            "img":"images/gallery/project/7.jpg",
+            "alt":"Project 7"
+        },
+        {
+            "img":"images/gallery/project/8.jpg",
+            "alt":"Project 8"
+        },
+        {
+            "img":"images/gallery/project/9.jpg",
+            "alt":"Project 9"
+        },
+        {
+            "img":"images/gallery/project/10.jpg",
+            "alt":"Project 10"
+        },
+        {
+            "img":"images/gallery/project/11.jpg",
+            "alt":"Project 11"
+        },
+        {
+            "img":"images/gallery/project/12.jpg",
+            "alt":"Project 12"
+        },
+        {
+            "img":"images/gallery/project/13.jpg",
+            "alt":"Project 13"
+        },
+        {
+            "img":"images/gallery/project/14.jpg",
+            "alt":"Project 14"
+        },
+        {
+            "img":"images/gallery/project/15.jpg",
+            "alt":"Project 15"
+        },
+        {
+            "img":"images/gallery/project/16.jpg",
+            "alt":"Project 16"
+        },
+        {
+            "img":"images/gallery/project/17.jpg",
+            "alt":"Project 17"
+        },
+        {
+            "img":"images/gallery/project/18.jpg",
+            "alt":"Project 18"
+        },
+        {
+            "img":"images/gallery/project/19.jpg",
+            "alt":"Project 19"
+        },
+        {
+            "img":"images/gallery/project/20.jpg",
+            "alt":"Project 20"
+        }
+    ],
+    "student" : [
+        {
+            "id": 1,
+            "name": "John Clark",
+            "father-name": "Robert Clark",
+            "age": 23,
+            "email": "johnclark@gmail.com",
+            "roll": "0001-efg-247",
+            "program": "JavaScript",
+            "img": "./images/student/1.jpg"
+        },
+        {
+            "id": 2,
+            "name": "James Wilson",
+            "father-name": "Michael Wilson",
+            "age": 21,
+            "email": "jameswilson@gmail.com",
+            "roll": "0002-efg-248",
+            "program": "Python",
+            "img": "./images/student/2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Emily Brown",
+            "father-name": "David Brown",
+            "age": 22,
+            "email": "emilybrown@gmail.com",
+            "roll": "0003-efg-249",
+            "program": "Web Development",
+            "img": "./images/student/3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "William Davis",
+            "father-name": "Thomas Davis",
+            "age": 24,
+            "email": "williamdavis@gmail.com",
+            "roll": "0004-efg-250",
+            "program": "Data Science",
+            "img": "./images/student/4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Sophia Miller",
+            "father-name": "Daniel Miller",
+            "age": 20,
+            "email": "sophiamiller@gmail.com",
+            "roll": "0005-efg-251",
+            "program": "JavaScript",
+            "img": "./images/student/5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Oliver Taylor",
+            "father-name": "Paul Taylor",
+            "age": 23,
+            "email": "olivertaylor@gmail.com",
+            "roll": "0006-efg-252",
+            "program": "React",
+            "img": "./images/student/6.jpg"
+        },
+        {
+            "id": 7,
+            "name": "Isabella Anderson",
+            "father-name": "Mark Anderson",
+            "age": 21,
+            "email": "isabellaanderson@gmail.com",
+            "roll": "0007-efg-253",
+            "program": "Python",
+            "img": "./images/student/7.jpg"
+        },
+        {
+            "id": 8,
+            "name": "Benjamin Thomas",
+            "father-name": "Andrew Thomas",
+            "age": 25,
+            "email": "benjaminthomas@gmail.com",
+            "roll": "0008-efg-254",
+            "program": "Mobile Development",
+            "img": "./images/student/8.jpg"
+        },
+        {
+            "id": 9,
+            "name": "Mia Jackson",
+            "father-name": "Brian Jackson",
+            "age": 22,
+            "email": "miajackson@gmail.com",
+            "roll": "0009-efg-255",
+            "program": "Web Development",
+            "img": "./images/student/9.jpg"
+        },
+        {
+            "id": 10,
+            "name": "Alexander White",
+            "father-name": "Richard White",
+            "age": 24,
+            "email": "alexwhite@gmail.com",
+            "roll": "0010-efg-256",
+            "program": "Data Science",
+            "img": "./images/student/10.jpg"
+        },
+        {
+            "id": 11,
+            "name": "Charlotte Harris",
+            "father-name": "Steven Harris",
+            "age": 20,
+            "email": "charlotteharris@gmail.com",
+            "roll": "0011-efg-257",
+            "program": "JavaScript",
+            "img": "./images/student/11.jpg"
+        },
+        {
+            "id": 12,
+            "name": "Ethan Martin",
+            "father-name": "Kevin Martin",
+            "age": 23,
+            "email": "ethanmartin@gmail.com",
+            "roll": "0012-efg-258",
+            "program": "Python",
+            "ime": "./images/student/12.jpg"
+        },
+        {
+            "id": 13,
+            "name": "Amelia Thompson",
+            "father-name": "Jason Thompson",
+            "age": 21,
+            "email": "amelathompson@gmail.com",
+            "roll": "0013-efg-259",
+            "program": "React",
+            "img": "./images/student/13.jpg"
+        },
+        {
+            "id": 14,
+            "name": "Lucas Garcia",
+            "father-name": "Carlos Garcia",
+            "age": 26,
+            "email": "lucasgarcia@gmail.com",
+            "roll": "0014-efg-260",
+            "program": "Full Stack",
+            "img": "./images/student/14.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Harper Martinez",
+            "father-name": "Jose Martinez",
+            "age": 22,
+            "email": "harpermartinez@gmail.com",
+            "roll": "0015-efg-261",
+            "program": "Web Development",
+            "img": "./images/student/15.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Mason Robinson",
+            "father-name": "Timothy Robinson",
+            "age": 24,
+            "email": "masonrobinson@gmail.com",
+            "roll": "0016-efg-262",
+            "program": "Data Science",
+            "img": "./images/student/16.jpg"
+        },
+        {
+            "id": 17,
+            "name": "Evelyn Clark",
+            "father-name": "Patrick Clark",
+            "age": 20,
+            "email": "evelynclark@gmail.com",
+            "roll": "0017-efg-263",
+            "program": "JavaScript",
+            "img": "./images/student/17.jpg"
+        },
+        {
+            "id": 18,
+            "name": "Liam Lewis",
+            "father-name": "Jeffrey Lewis",
+            "age": 23,
+            "email": "liamlewis@gmail.com",
+            "roll": "0018-efg-264",
+            "program": "Python",
+            "img": "./images/student/18.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Abigail Lee",
+            "father-name": "Scott Lee",
+            "age": 21,
+            "email": "abigaillee@gmail.com",
+            "roll": "0019-efg-265",
+            "program": "React",
+            "img": "./images/student/19.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Henry Walker",
+            "father-name": "Dennis Walker",
+            "age": 25,
+            "email": "henrywalker@gmail.com",
+            "roll": "0020-efg-266",
+            "program": "Mobile Development",
+            "img": "./images/student/20.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Emily Hall",
+            "father-name": "Raymond Hall",
+            "age": 22,
+            "email": "emilyhall@gmail.com",
+            "roll": "0021-efg-267",
+            "program": "Web Development",
+            "img": "./images/student/21.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Sebastian Allen",
+            "father-name": "Larry Allen",
+            "age": 24,
+            "email": "sebastianallen@gmail.com",
+            "roll": "0022-efg-268",
+            "program": "Data Science",
+            "img": "./images/student/22.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Elizabeth Young",
+            "father-name": "Harry Young",
+            "age": 20,
+            "email": "elizabethyoung@gmail.com",
+            "roll": "0023-efg-269",
+            "program": "JavaScript",
+            "img": "./images/student/23.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Jack King",
+            "father-name": "Arthur King",
+            "age": 23,
+            "email": "jackking@gmail.com",
+            "roll": "0024-efg-270",
+            "program": "Python",
+            "img": "./images/student/24.jpg"
+        },
+        {
+            "id": 25,
+            "name": "Avery Wright",
+            "father-name": "Peter Wright",
+            "age": 21,
+            "email": "averywright@gmail.com",
+            "roll": "0025-efg-271",
+            "program": "React",
+            "img": "./images/student/25.jpg"
+        },
+        {
+            "id": 26,
+            "name": "Grace Scott",
+            "father-name": "Eric Scott",
+            "age": 26,
+            "email": "gracescott@gmail.com",
+            "roll": "0026-efg-272",
+            "program": "Full Stack",
+            "img": "./images/student/26.jpg"
+        },
+        {
+            "id": 27,
+            "name": "Aiden Green",
+            "father-name": "Ryan Green",
+            "age": 22,
+            "email": "aidengreen@gmail.com",
+            "roll": "0027-efg-273",
+            "program": "Web Development",
+            "img": "./images/student/27.jpg"
+        },
+        {
+            "id": 28,
+            "name": "Chloe Adams",
+            "father-name": "Brandon Adams",
+            "age": 24,
+            "email": "chloadams@gmail.com",
+            "roll": "0028-efg-274",
+            "program": "Data Science",
+            "img": "./images/student/28.jpg"
+        },
+        {
+            "id": 29,
+            "name": "Samuel Baker",
+            "father-name": "Aaron Baker",
+            "age": 20,
+            "email": "samuelbaker@gmail.com",
+            "roll": "0029-efg-275",
+            "program": "JavaScript",
+            "img": "./images/student/29.jpg"
+        },
+        {
+            "id": 30,
+            "name": "Victoria Nelson",
+            "father-name": "Samuel Nelson",
+            "age": 23,
+            "email": "victorianelson@gmail.com",
+            "roll": "0030-efg-276",
+            "program": "Python",
+            "img": "./images/student/30.jpg"
+        },
+        {
+            "id": 31,
+            "name": "David Carter",
+            "father-name": "Nathan Carter",
+            "age": 21,
+            "email": "davidcarter@gmail.com",
+            "roll": "0031-efg-277",
+            "program": "React",
+            "img": "./images/student/31.jpg"
+        },
+        {
+            "id": 32,
+            "name": "Penelope Mitchell",
+            "father-name": "Sean Mitchell",
+            "age": 25,
+            "email": "penelopemitchell@gmail.com",
+            "roll": "0032-efg-278",
+            "program": "Mobile Development",
+            "img": "./images/student/32.jpg"
+        },
+        {
+            "id": 33,
+            "name": "Carter Perez",
+            "father-name": "Justin Perez",
+            "age": 22,
+            "email": "carterperez@gmail.com",
+            "roll": "0033-efg-279",
+            "program": "Web Development",
+            "img": "./images/student/33.jpg"
+        },
+        {
+            "id": 34,
+            "name": "Layla Roberts",
+            "father-name": "Tyler Roberts",
+            "age": 24,
+            "email": "laylaroberts@gmail.com",
+            "roll": "0034-efg-280",
+            "program": "Data Science",
+            "img": "./images/student/34.jpg"
+        },
+        {
+            "id": 35,
+            "name": "Owen Turner",
+            "father-name": "Austin Turner",
+            "age": 20,
+            "email": "owenturner@gmail.com",
+            "roll": "0035-efg-281",
+            "program": "JavaScript",
+            "img": "./images/student/35.jpg"
+        }
+    ],
+    "tour" : [
+        {
+            "img":"images/gallery/tour/0.jpg",
+            "alt":"Tour 1"
+        },
+        {
+            "img":"images/gallery/tour/1.jpg",
+            "alt":"Tour 2"
+        },
+        {
+            "img":"images/gallery/tour/2.jpg",
+            "alt":"Tour 3"
+        },
+        {
+            "img":"images/gallery/tour/3.jpg",
+            "alt":"Tour 4"
+        },
+        {
+            "img":"images/gallery/tour/4.jpg",
+            "alt":"Tour 5"
+        },
+        {
+            "img":"images/gallery/tour/5.jpg",
+            "alt":"Tour 6"
+        },
+        {
+            "img":"images/gallery/tour/6.jpg",
+            "alt":"Tour 7"
+        },
+        {
+            "img":"images/gallery/tour/7.jpg",
+            "alt":"Tour 8"
+        },
+        {
+            "img":"images/gallery/tour/8.jpg",
+            "alt":"Tour 9"
+        },
+        {
+            "img":"images/gallery/tour/9.jpg",
+            "alt":"Tour 10"
+        },
+        {
+            "img":"images/gallery/tour/10.jpg",
+            "alt":"Tour 11"
+        },
+        {
+            "img":"images/gallery/tour/11.jpg",
+            "alt":"Tour 12"
+        },
+        {
+            "img":"images/gallery/tour/12.jpg",
+            "alt":"Tour 13"
+        },
+        {
+            "img":"images/gallery/tour/13.jpg",
+            "alt":"Tour 14"
+        },
+        {
+            "img":"images/gallery/tour/14.jpg",
+            "alt":"Tour 15"
+        },
+        {
+            "img":"images/gallery/tour/15.jpg",
+            "alt":"Tour 16"
+        },
+        {
+            "img":"images/gallery/tour/16.jpg",
+            "alt":"Tour 17"
+        },
+        {
+            "img":"images/gallery/tour/17.jpg",
+            "alt":"Tour 18"
+        },
+        {
+            "img":"images/gallery/tour/18.jpg",
+            "alt":"Tour 19"
+        },
+        {
+            "img":"images/gallery/tour/19.jpg",
+            "alt":"Tour 20"
+        },
+        {
+            "img":"images/gallery/tour/20.jpg",
+            "alt":"Tour 21"
+        }
+    ],
+    "class" : [
+        {
+            "img":"images/gallery/class/1.jpg",
+            "alt":"Study 1"
+        },
+        {
+            "img":"images/gallery/class/2.jpg",
+            "alt":"Study 2"
+        },
+        {
+            "img":"images/gallery/class/3.jpg",
+            "alt":"Study 3"
+        },
+        {
+            "img":"images/gallery/class/4.jpg",
+            "alt":"Study 4"
+        },
+        {
+            "img":"images/gallery/class/5.jpg",
+            "alt":"Study 5"
+        },
+        {
+            "img":"images/gallery/class/6.jpg",
+            "alt":"Study 6"
+        },
+        {
+            "img":"images/gallery/class/7.jpg",
+            "alt":"Study 7"
+        },
+        {
+            "img":"images/gallery/class/8.jpg",
+            "alt":"Study 8"
+        },
+        {
+            "img":"images/gallery/class/9.jpg",
+            "alt":"Study 9"
+        },
+        {
+            "img":"images/gallery/class/10.jpg",
+            "alt":"Study 10"
+        },
+        {
+            "img":"images/gallery/class/11.jpg",
+            "alt":"Study 11"
+        },
+        {
+            "img":"images/gallery/class/12.jpg",
+            "alt":"Study 12"
+        },
+        {
+            "img":"images/gallery/class/13.jpg",
+            "alt":"Study 13"
+        },
+        {
+            "img":"images/gallery/class/14.jpg",
+            "alt":"Study 14"
+        },
+        {
+            "img":"images/gallery/class/15.jpg",
+            "alt":"Study 15"
+        },
+        {
+            "img":"images/gallery/class/16.jpg",
+            "alt":"Study 16"
+        },
+        {
+            "img":"images/gallery/class/17.jpg",
+            "alt":"Study 17"
+        },
+        {
+            "img":"images/gallery/class/18.jpg",
+            "alt":"Study 18"
+        },
+        {
+            "img":"images/gallery/class/19.jpg",
+            "alt":"Study 19"
+        },
+        {
+            "img":"images/gallery/class/20.jpg",
+            "alt":"Study 20"
+        }
+    ]
+
+}

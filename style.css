@@ -1,6 +1,9 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap');
-
+.branche-items{
+    padding: 0;
+    margin: 0%;
+}
 *{
     margin: 0;
     padding: 0;
@@ -508,9 +511,9 @@ footer p {
 
 /* main content styles */
 main {
-    padding: 40px 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    /* padding: 40px 20px; */
+    /* max-width: 1200px; */
+    /* margin: 0 auto; */
     width: 100%;
 }
 
