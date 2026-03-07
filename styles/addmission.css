@@ -499,3 +499,6 @@ main .content > p {
     transform: translateY(-3px);
     box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
 }
+.addmission-html{ 
+    padding-bottom: 20px;
+}

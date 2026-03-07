@@ -475,7 +475,7 @@ header .top .manu .menu-list {
 footer{
     display: flex;
     flex-direction: column;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
     padding: 40px 20px;
     position: relative;

@@ -193,16 +193,6 @@
             "img": "./images/student/11.jpg"
         },
         {
-            "id": 12,
-            "name": "Ethan Martin",
-            "father-name": "Kevin Martin",
-            "age": 23,
-            "email": "ethanmartin@gmail.com",
-            "roll": "0012-efg-258",
-            "program": "Python",
-            "ime": "./images/student/12.jpg"
-        },
-        {
             "id": 13,
             "name": "Amelia Thompson",
             "father-name": "Jason Thompson",
