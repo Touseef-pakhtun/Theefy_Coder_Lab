@@ -139,7 +139,7 @@ body::before {
 }
 
 .classes .class .text span b {
-    color: #667eea;
+    color: white;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     padding: 3px 10px;
     border-radius: 15px;
