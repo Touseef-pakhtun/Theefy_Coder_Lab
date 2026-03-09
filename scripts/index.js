@@ -4,7 +4,54 @@ import { fetchcourse } from './course.js';
 import { fetchData } from './news.js';
 import { addmissionHtml } from './addmission.js';
 import { loadStudents } from './student.js';
-import { aboutHtml } from './about.js';
+// Note: gallery.js is loaded via script.js and exposes fetchGallery on window
+// about.js is loaded separately and handles its own imports
+
+// header html
+export function header(){
+    const headerHtml = `<nav>
+            <div class="email">
+                <a href="email"><i class="fas fa-envelope"></i> skpahtan@gemail.com</a>
+                <a href="phone"><i class="fas fa-phone"></i> +92 300 1234567</a>
+            </div>
+            <div class="search">
+                <label for="search">Search</label>
+                <input type="search" name="search" id="search" placeholder="search.....">
+            </div>
+            <div class="list">
+                <ul>
+                    <li><a href="facebook"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="github"><i class="fab fa-github"></i></a></li>
+                    <li><a href="instagram"><i class="fab fa-instagram"></i></a></li>
+                    
+                </ul>
+            </div>
+        </nav>
+        
+        <section class="top">
+            <section class="welcome">
+                <img src="./images/lab_logo/logo.png" alt="">
+                <h1>Welcome to Theefy Coder Lab</h1>
+            </section>
+            <section class="manu">
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="menu-list">
+                    <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                    <li><a href="class.html"><i class="fas fa-chalkboard-teacher"></i> Courses</a></li>
+                    <li><a href="branches.html"><i class="fas fa-building"></i> Branches</a></li>
+                    <li><a href="news.html"><i class="fas fa-newspaper"></i> News</a></li>
+                    <li><a href="addmission.html"><i class="fas fa-user-plus"></i> Addmission</a></li>
+                    <li><a href="gallery.html"><i class="fas fa-images"></i> Gallery</a></li>
+                    <li><a href="student.html"><i class="fas fa-user-graduate"></i> Student</a></li>
+                </ul>
+            </section>
+        </section>`;
+        document.querySelector('header').innerHTML = headerHtml;
+}
+header();
 
 // footer html 
 export function footer(){

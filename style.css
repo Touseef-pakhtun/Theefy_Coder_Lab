@@ -8,6 +8,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* overflow-x: hidden; */
+    height:min-content;
 }
 body{
     display: flex;
@@ -428,9 +430,9 @@ header .top .manu .menu-list {
     
     /* Main h1 responsive styles */
     main > h1 {
-        font-size: 1.8rem;
-        padding: 15px 25px;
-        max-width: 280px;
+        font-size: 1.5rem !important;
+        padding: 10px 20px;
+        max-width: fit-content;
     }
     
     main > h1::before {
@@ -468,6 +470,13 @@ header .top .manu .menu-list {
     
     header .top .manu ul li a {
         font-size: 12px;
+    }
+    
+    /* Main h1 responsive styles - half size */
+    main > h1 {
+        font-size: 1.5rem !important;
+        padding: 8px 15px;
+        max-width: fit-content;
     }
 }
 
@@ -653,17 +662,30 @@ footer .comments-div .comment:hover {
         "image name" auto
         "date date" auto
         "comment comment" auto
-        / 50px auto;
-        margin: 10px;
-        padding: 10px;
+        / 40px auto;
+        margin: 5px;
+        padding: 5px;
+        border-radius: 12px;
     }
     
     footer .comments-div .comment .name {
         padding-top: 0;
+        font-size: 0.7rem;
     }
     
     footer .comments-div .comment .date {
         top: 0;
+        font-size: 0.6rem;
+    }
+    
+    footer .comments-div .comment .comment-data {
+        font-size: 0.65rem;
+    }
+    
+    footer .comments-div .comment .image {
+        width: 25px;
+        height: 25px;
+        border: 2px solid white;
     }
 }
 
