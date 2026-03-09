@@ -4,6 +4,7 @@ import { fetchcourse } from './course.js';
 import { fetchData } from './news.js';
 import { addmissionHtml } from './addmission.js';
 import { loadStudents } from './student.js';
+import { aboutHtml } from './about.js';
 // Note: gallery.js is loaded via script.js and exposes fetchGallery on window
 // about.js is loaded separately and handles its own imports
 
